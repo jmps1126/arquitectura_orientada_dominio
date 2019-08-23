@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="app.demo.usecase.todo.QueryTasksUseCaseTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-08-16T20:45:02" hostname="MacBook-Pro-de-rpombo-3.local" time="0.013">
+  <properties/>
+  <testcase name="findAll" classname="app.demo.usecase.todo.QueryTasksUseCaseTest" time="0.008"/>
+  <testcase name="findTodoWithDetailsWhenUserIsEmpty" classname="app.demo.usecase.todo.QueryTasksUseCaseTest" time="0.002"/>
+  <testcase name="findTodoWithDetails" classname="app.demo.usecase.todo.QueryTasksUseCaseTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

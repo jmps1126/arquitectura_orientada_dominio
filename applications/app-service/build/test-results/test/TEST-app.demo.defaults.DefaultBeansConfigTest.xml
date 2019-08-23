@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="app.demo.defaults.DefaultBeansConfigTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-08-16T19:32:04" hostname="MacBook-Pro-de-rpombo-3.local" time="0.013">
+  <properties/>
+  <testcase name="eventsGatewayShouldHaveNoError" classname="app.demo.defaults.DefaultBeansConfigTest" time="0.01"/>
+  <testcase name="userGateway" classname="app.demo.defaults.DefaultBeansConfigTest" time="0.001"/>
+  <testcase name="userScoreGateway" classname="app.demo.defaults.DefaultBeansConfigTest" time="0.0"/>
+  <testcase name="taskToDoRepositoryShouldHaveNoError" classname="app.demo.defaults.DefaultBeansConfigTest" time="0.001"/>
+  <system-out><![CDATA[2019-08-16 14:32:04.328  WARN 27611 --- [    Test worker] app.demo.defaults.DefaultBeansConfig     : CONFIGURACION FAKE: 
+2019-08-16 14:32:04.328  WARN 27611 --- [    Test worker] app.demo.defaults.DefaultBeansConfig     : CONFIGURACION FAKE: 
+2019-08-16 14:32:04.329  INFO 27611 --- [    Test worker] app.demo.defaults.DefaultBeansConfig     : Evento de dominio emitido sólo a sysout:
+2019-08-16 14:32:04.336  INFO 27611 --- [    Test worker] app.demo.defaults.DefaultBeansConfig     : TaskAssigned(task=TaskToDo(id=null, name=null, description=null, assignedUserId=null, reportStatus=null, doneDate=null, done=false), date=Fri Aug 16 14:32:04 COT 2019)
+2019-08-16 14:32:04.337  WARN 27611 --- [    Test worker] app.demo.defaults.DefaultBeansConfig     : CONFIGURACION FAKE: 
+2019-08-16 14:32:04.337  WARN 27611 --- [    Test worker] app.demo.defaults.DefaultBeansConfig     : CONFIGURACION FAKE: 
+2019-08-16 14:32:04.337  INFO 27611 --- [    Test worker] app.demo.defaults.DefaultBeansConfig     : Usando UserGateway sin implementación
+2019-08-16 14:32:04.338  WARN 27611 --- [    Test worker] app.demo.defaults.DefaultBeansConfig     : CONFIGURACION FAKE: 
+2019-08-16 14:32:04.338  WARN 27611 --- [    Test worker] app.demo.defaults.DefaultBeansConfig     : CONFIGURACION FAKE: 
+2019-08-16 14:32:04.338  INFO 27611 --- [    Test worker] app.demo.defaults.DefaultBeansConfig     : Usando UserScoreGateway sin implementación: 1 - 12
+2019-08-16 14:32:04.339  WARN 27611 --- [    Test worker] app.demo.defaults.DefaultBeansConfig     : CONFIGURACION FAKE: 
+2019-08-16 14:32:04.339  WARN 27611 --- [    Test worker] app.demo.defaults.DefaultBeansConfig     : CONFIGURACION FAKE: 
+2019-08-16 14:32:04.339  INFO 27611 --- [    Test worker] app.demo.defaults.DefaultBeansConfig     : Usando TaskToDoRepository.findAll sin implementación
+2019-08-16 14:32:04.339  WARN 27611 --- [    Test worker] app.demo.defaults.DefaultBeansConfig     : CONFIGURACION FAKE: 
+2019-08-16 14:32:04.339  INFO 27611 --- [    Test worker] app.demo.defaults.DefaultBeansConfig     : Guardado a repo sin implementación: 
+2019-08-16 14:32:04.339  INFO 27611 --- [    Test worker] app.demo.defaults.DefaultBeansConfig     : TaskToDo(id=null, name=null, description=null, assignedUserId=null, reportStatus=null, doneDate=null, done=false)
+2019-08-16 14:32:04.340  WARN 27611 --- [    Test worker] app.demo.defaults.DefaultBeansConfig     : CONFIGURACION FAKE: 
+2019-08-16 14:32:04.340  INFO 27611 --- [    Test worker] app.demo.defaults.DefaultBeansConfig     : Usando TaskToDoRepository.findById sin implementación
+2019-08-16 14:32:04.340  WARN 27611 --- [    Test worker] app.demo.defaults.DefaultBeansConfig     : CONFIGURACION FAKE: 
+2019-08-16 14:32:04.340  INFO 27611 --- [    Test worker] app.demo.defaults.DefaultBeansConfig     : Guardado a repo sin implementación: saveAll
+2019-08-16 14:32:04.340  WARN 27611 --- [    Test worker] app.demo.defaults.DefaultBeansConfig     : CONFIGURACION FAKE: 
+2019-08-16 14:32:04.340  INFO 27611 --- [    Test worker] app.demo.defaults.DefaultBeansConfig     : Usando TaskToDoRepository.findAllUserOpenTasks sin implementación
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

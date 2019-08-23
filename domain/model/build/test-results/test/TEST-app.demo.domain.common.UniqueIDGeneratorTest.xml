@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="app.demo.domain.common.UniqueIDGeneratorTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-08-16T19:32:16" hostname="MacBook-Pro-de-rpombo-3.local" time="0.165">
+  <properties/>
+  <testcase name="now" classname="app.demo.domain.common.UniqueIDGeneratorTest" time="0.004"/>
+  <testcase name="uuid" classname="app.demo.domain.common.UniqueIDGeneratorTest" time="0.002"/>
+  <testcase name="uuids" classname="app.demo.domain.common.UniqueIDGeneratorTest" time="0.159"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

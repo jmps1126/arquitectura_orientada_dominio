@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="app.demo.usecase.todo.CompleteTasksUseCaseTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-08-16T20:44:53" hostname="MacBook-Pro-de-rpombo-3.local" time="9.347">
+  <properties/>
+  <testcase name="shouldMarkAsDone" classname="app.demo.usecase.todo.CompleteTasksUseCaseTest" time="0.023"/>
+  <testcase name="shouldMarkAsDoneDespiteCommandFail" classname="app.demo.usecase.todo.CompleteTasksUseCaseTest" time="9.324"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

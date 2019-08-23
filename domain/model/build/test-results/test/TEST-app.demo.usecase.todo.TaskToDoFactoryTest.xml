@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="app.demo.usecase.todo.TaskToDoFactoryTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-08-16T19:32:15" hostname="MacBook-Pro-de-rpombo-3.local" time="0.336">
+  <properties/>
+  <testcase name="shouldFailCreateANewTaskWithoutId" classname="app.demo.usecase.todo.TaskToDoFactoryTest" time="0.309"/>
+  <testcase name="shouldFailCreateANewTaskWithoutDescription" classname="app.demo.usecase.todo.TaskToDoFactoryTest" time="0.0"/>
+  <testcase name="shouldFailCreateANewTaskWithoutName" classname="app.demo.usecase.todo.TaskToDoFactoryTest" time="0.0"/>
+  <testcase name="shouldCreateANewTask" classname="app.demo.usecase.todo.TaskToDoFactoryTest" time="0.026"/>
+  <system-out><![CDATA[14:32:16.117 [Test worker] DEBUG reactor.util.Loggers$LoggerFactory - Using Slf4j logging framework
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

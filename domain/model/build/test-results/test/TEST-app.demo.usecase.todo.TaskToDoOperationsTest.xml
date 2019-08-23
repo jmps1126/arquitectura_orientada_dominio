@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="app.demo.usecase.todo.TaskToDoOperationsTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-08-16T19:32:16" hostname="MacBook-Pro-de-rpombo-3.local" time="0.025">
+  <properties/>
+  <testcase name="shouldFailMarkAsDone" classname="app.demo.usecase.todo.TaskToDoOperationsTest" time="0.001"/>
+  <testcase name="shouldFailAssignToUserWhenAlreadyAssigned" classname="app.demo.usecase.todo.TaskToDoOperationsTest" time="0.001"/>
+  <testcase name="shouldMarkAsDone" classname="app.demo.usecase.todo.TaskToDoOperationsTest" time="0.009"/>
+  <testcase name="shouldAssignToUser" classname="app.demo.usecase.todo.TaskToDoOperationsTest" time="0.009"/>
+  <testcase name="setPendingToReAssign" classname="app.demo.usecase.todo.TaskToDoOperationsTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

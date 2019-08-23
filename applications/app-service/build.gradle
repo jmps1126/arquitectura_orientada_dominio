@@ -1,0 +1,23 @@
+apply plugin: 'org.springframework.boot'
+
+dependencies {
+	compile 'org.springframework.boot:spring-boot-starter'
+	compile project(":domain-usecase")
+
+	compile project(":entry-points-reactive-web")
+//	compile project(":entry-points-scheduler")
+	
+//	compile project(":entry-points-async-query-handlers")
+//	compile project(":entry-points-async-command-handlers")
+	
+	// compile project(":driven-adapters-mongodb-repository")
+	compile project(":driven-adapters-jpa-repository")
+//	compile project(":driven-adapters-async-messages-senders")
+//	compile project(":driven-adapters-async-event-bus")
+
+	//	compile project(":helpers-observability-helper")
+
+//    compile 'com.h2database:h2'
+	compile 'org.reactivecommons.utils:object-mapper:0.1.0'
+	runtime('org.springframework.boot:spring-boot-devtools')
+}

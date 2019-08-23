@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="/usr/local/Cellar/gradle/5.4.1/libexec" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/applications/app-service" />
+            <option value="$PROJECT_DIR$/domain/model" />
+            <option value="$PROJECT_DIR$/domain/usecase" />
+            <option value="$PROJECT_DIR$/infraestructure/driven-adapters/async-event-bus" />
+            <option value="$PROJECT_DIR$/infraestructure/driven-adapters/jpa-repository" />
+            <option value="$PROJECT_DIR$/infraestructure/driven-adapters/mongodb-repository" />
+            <option value="$PROJECT_DIR$/infraestructure/driven-adapters/reactive-rest-consumer" />
+            <option value="$PROJECT_DIR$/infraestructure/entry-points/rabbit-raw-subscriptions" />
+            <option value="$PROJECT_DIR$/infraestructure/entry-points/reactive-web" />
+            <option value="$PROJECT_DIR$/infraestructure/entry-points/scheduler" />
+            <option value="$PROJECT_DIR$/infraestructure/helpers/jpa-repository-commons" />
+            <option value="$PROJECT_DIR$/infraestructure/helpers/observability-helper" />
+            <option value="$PROJECT_DIR$/infraestructure/helpers/reactive-repository-commons" />
+            <option value="$PROJECT_DIR$/test/acceptance" />
+            <option value="$PROJECT_DIR$/test/async-external-service-simulator" />
+          </set>
+        </option>
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

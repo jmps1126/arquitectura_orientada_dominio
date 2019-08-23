@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="app.demo.reactive.events.ReactiveEventsGatewayTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-08-16T20:45:10" hostname="MacBook-Pro-de-rpombo-3.local" time="0.338">
+  <properties/>
+  <testcase name="testEmit" classname="app.demo.reactive.events.ReactiveEventsGatewayTest" time="0.33"/>
+  <testcase name="shouldRespectBasicReactiveStreamContract" classname="app.demo.reactive.events.ReactiveEventsGatewayTest" time="0.007"/>
+  <system-out><![CDATA[15:45:10.472 [Test worker] DEBUG reactor.util.Loggers$LoggerFactory - Using Slf4j logging framework
+]]></system-out>
+  <system-err><![CDATA[ago. 16, 2019 3:45:10 P. M. app.demo.reactive.events.ReactiveEventsGateway emit
+INFO: Emitiendo evento de dominio: test.event: ReactiveEventsGatewayTest.MyEvent(data1=1, data2=2)
+ago. 16, 2019 3:45:10 P. M. app.demo.reactive.events.ReactiveEventsGateway emit
+INFO: Emitiendo evento de dominio: test.event: ReactiveEventsGatewayTest.MyEvent(data1=1, data2=2)
+]]></system-err>
+</testsuite>

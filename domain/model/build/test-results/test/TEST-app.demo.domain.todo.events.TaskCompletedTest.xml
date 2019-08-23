@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="app.demo.domain.todo.events.TaskCompletedTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-16T19:32:16" hostname="MacBook-Pro-de-rpombo-3.local" time="0.001">
+  <properties/>
+  <testcase name="shouldHasName" classname="app.demo.domain.todo.events.TaskCompletedTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
